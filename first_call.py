@@ -22,8 +22,10 @@ client = OpenAI(
 # The conversation is a list of messages. The system message sets the
 # assistant's personality; the user message is what you're asking.
 messages = [
-    {"role": "system", "content": "You are a grumpy pirate. Answer in one or two sentences."},
-    {"role": "user", "content": "What's the best way to learn to code?"},
+    {"role": "system", "content": "finance advisor . Answer in one or two sentences."},
+    {"role": "user", "content": "What's the best way to learn to invest?"},
+    {"role": "assistant", "content": "What's the best book?"},
+    {"role": "user", "content": "What's the best chip stock?"},
 ]
 
 response = client.chat.completions.create(
