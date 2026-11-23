@@ -9,7 +9,7 @@ import os
 from dotenv import load_dotenv
 from openai import OpenAI
 
-MODEL = "google/gemma-4-26b-a4b-it:floor"
+MODEL = "deepseek/deepseek-v4.1-flash-1017"
 
 # Read your key from the .env file, then connect to OpenRouter with it.
 # The key never appears in this file.
